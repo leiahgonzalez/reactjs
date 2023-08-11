@@ -1,17 +1,33 @@
-header{
+.header{
+    margin: 0px;
+    border: 0px;
     display: flex;
     align-items: center;
     justify-content: space-between;
-  
+    text-decoration: none;
     background-color: black;
+    height: 130px;
+    
+    
         
+}
+
+ul{
+    position: relative;
+    top: -95px;
+    left: 50%;
+   
 }
 
 li{
     display: inline-block;
+    
+}
+.lista {
+    text-decoration: none;
     margin: 1rem;
     cursor: pointer;
-    padding: 5px 10px;
+    padding: 5px 5px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-size: 20px;
      color: white; 
@@ -20,9 +36,13 @@ li{
 .titulo{
    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     font-size: 50px;
-    padding: 0px 50px;
+    padding: 0px 40px;
     color: white;
 }
 .logoinicio{
+    
     width: 90px;
+    position: relative;
+    right: 57%;
+    top: 2px;
 }

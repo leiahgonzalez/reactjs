@@ -1,0 +1,15 @@
+.imgProducto {
+    width: 150px;
+    object-fit: contain;
+}
+
+.cardProducto {
+    background-color: #bcbd8b;
+    border-radius: 10px;
+    width: 15rem;
+    padding: 1rem;
+    margin: 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
