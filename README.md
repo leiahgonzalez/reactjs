@@ -26,7 +26,7 @@ Clona el repositorio a tu máquina local.
 Abre una terminal en el directorio del proyecto.
 Ejecuta el comando npm install para instalar las dependencias.
 Ejecuta el comando npm run dev para iniciar la aplicación.
-Abre tu navegador y navega a http://localhost:5173 para ver la aplicación en acción.
+Abre tu navegador y navega a http://localhost:3000 para ver la aplicación en acción.
 
 
 Configuración de Firebase
