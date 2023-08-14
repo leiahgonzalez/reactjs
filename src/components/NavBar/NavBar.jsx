@@ -28,11 +28,7 @@ export const NavBar = () => {
               </NavLink>
 
             </li>
-            <li>
-              <NavLink to={"/categoria/4"} className='lista'>
-                Sandalias
-              </NavLink>
-            </li>
+        
         </ul>
     </nav>
 
