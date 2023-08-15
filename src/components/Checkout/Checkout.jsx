@@ -7,13 +7,13 @@ import { collection, addDoc } from 'firebase/firestore'
 
 const Checkout = () => {
     const {carrito, vaciarCarrito, cantidadTotal} = useContext(CarritoContext);
-    const {nombre, setNombre} = useState("");
-    const {apellido, setApellido} = useState("");
-    const {telefono, setTelefono} = useState("");
-    const {mail, setMail} = useState("");
-    const {mailConfirmacion, setMailConfirmacion} = useState("");
-    const {error, setError} = useState("");
-    const {orderId, setOrderId} = useState("");
+    const [nombre, setNombre] = useState('');
+    const [apellido, setApellido] = useState('');
+    const [telefono, setTelefono] = useState('');
+    const [mail, setMail] = useState('');
+    const [mailConfirmacion, setMailConfirmacion] = useState('');
+    const [error, setError] = useState('');
+    const [orderId, setOrderId] = useState('');
 
     const manejadorFormulario = (e) => {
         e.preventDefault();
